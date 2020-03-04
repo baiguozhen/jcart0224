@@ -1,6 +1,6 @@
 package dto.out;
 
-public class PageOutDTO {
+public class PageOutDTO<C> {
     private Long total;
     private Integer pageSize;
     private Integer pageNum;
